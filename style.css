@@ -1,0 +1,1204 @@
+.page-container {
+    width: 94%;
+    margin: 0 auto;
+}
+
+
+
+.logo span {
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.logo small {
+    font-weight: 700;
+}
+
+.logo-title {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.logo-title img {
+    width: 35px;
+    height: 20px;
+    object-fit: cover;
+}
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 5px 60px;
+
+    position: fixed;
+    top: 0;
+    left: 3%;
+    width: 94%;
+
+    z-index: 9999;
+
+    background: linear-gradient(
+        to right,
+        #ffc993,
+        #ffffff,
+        #c1ecc6
+    );
+
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+.logo {
+    margin-right: 60px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.nav-links a {
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ff9933;
+}
+
+.nav-links a.active {
+    color: #ff9933;
+    font-weight: 700;
+}
+
+
+
+.nav-btn {
+    color: black;
+    background-color: transparent;
+    border: 1px solid transparent;
+    margin-left: 0;
+}
+
+.nav-btn:hover {
+    color: #ff9933;
+    background-color: transparent;
+    border: 1px solid #ff9933;
+}
+
+
+
+
+.feild {
+    min-height: 520px;
+
+    background-image: url("./assests/background-img.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    
+    padding-top: 80px;
+
+    scroll-margin-top: 90px;
+}
+
+.field-content {
+    padding-top: 80px;
+    padding-right: 80px;
+    padding-bottom: 60px;
+
+    margin-left: 100px;
+}
+
+.field-content h1 {
+    font-size: 60px;
+    line-height: 1.05;
+    font-weight: 800;
+}
+
+.nation {
+    color: #ff9933;
+}
+
+.dream {
+    color: #000080;
+}
+
+.freedom {
+    color: #138808;
+}
+
+.main-title {
+    color: #ff9933;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.field-txt {
+    color: rgba(0, 0, 0, 0.736);
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+
+
+
+.hero-btn {
+    background-color: #ff9933;
+    color: white;
+    border: 2px solid #ff9933;
+}
+
+.hero-btn:hover {
+    background-color: #e68a00;
+    color: white;
+    border-color: #e68a00;
+}
+
+
+
+
+.custom-alert {
+    position: relative;
+
+    background-color: #fff1e6;
+
+    border: 2px solid #ff9933;
+    border-right: 4px solid rgba(19, 136, 8, 0.55);
+
+    border-radius: 10px;
+
+    color: #333;
+
+    text-align: center;
+
+    padding: 12px 45px;
+}
+
+.custom-alert b {
+    color: orange;
+}
+
+.alert-icon {
+    margin-right: 8px;
+}
+
+.announce {
+    width: 80%;
+    margin: 15px auto 0;
+}
+
+
+
+
+.flag-section {
+    width: 80%;
+
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 5px;
+
+    padding: 0 0 30px;
+}
+
+.flag-info {
+    width: 45%;
+}
+
+.flag-image {
+    width: 45%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flag-image img {
+    width: 90%;
+    max-width: 450px;
+    height: auto;
+
+    border-radius: 10px;
+}
+
+.flag-info h2 {
+    font-size: 28px;
+    margin-bottom: 0;
+}
+
+.tricolor-line {
+    width: 61%;
+    height: 4px;
+
+    border: none;
+
+    margin: 8px 0 20px;
+
+    background: linear-gradient(
+        to right,
+        #cc5500 0%,
+        #cc5500 33%,
+        #f5f5f5 33%,
+        #f5f5f5 66%,
+        #006b00 66%,
+        #006b00 100%
+    );
+}
+
+.flag-info h3 {
+    font-size: 17px;
+    margin-bottom: 3px;
+}
+
+.flag-info p {
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+
+.saffron-text {
+    color: #ff9933;
+}
+
+.green-text {
+    color: #138808;
+}
+
+.chakra-text {
+    color: #000080;
+}
+
+
+
+.color-details {
+    width: 100%;
+}
+
+.color-item {
+    margin-bottom: 12px;
+}
+
+.color-item h4,
+.chakra-content h4 {
+    margin: 0;
+    font-size: 17px;
+}
+
+.color-item p,
+.chakra-content p {
+    margin: 3px 0 6px 27px;
+    font-size: 15px;
+}
+
+.color-item hr {
+    width: 200px;
+
+    margin: 6px 0 6px 27px;
+
+    border: 0;
+
+    border-top: 1px solid #999;
+}
+
+
+
+
+.heroes-title {
+    width: 100%;
+
+    margin: 5px auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 15px;
+
+    scroll-margin-top: 100px;
+}
+
+.heroes-title h2 {
+    font-size: 21px;
+    font-weight: 600;
+
+    white-space: nowrap;
+
+    margin: 0;
+
+    text-align: center;
+}
+
+.hero-line {
+    width: 80px;
+    height: 3px;
+
+    flex: 0 0 80px;
+
+    border: none;
+    margin: 0;
+
+    background: linear-gradient(
+        to right,
+        #cc5500 0%,
+        #cc5500 33%,
+        #006b00 66%,
+        #006b00 100%
+    );
+
+    opacity: 1;
+}
+
+
+
+
+.timeline {
+    width: 80%;
+
+    margin: 40px auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.timeline-item {
+    width: 65px;
+    height: 65px;
+
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-shrink: 0;
+}
+
+.year {
+    color: white;
+
+    font-size: 16px;
+
+    font-weight: 700;
+}
+
+.timeline-line {
+    height: 3px;
+    width: 190px;
+
+    background-color: #555;
+}
+
+.timeline-orange {
+    background-color: #ff9933;
+}
+
+.timeline-green {
+    background-color: #138808;
+}
+
+
+
+.heroes-section {
+    width: 90%;
+
+    margin: 30px auto;
+
+    display: flex;
+
+    gap: 15px;
+
+    justify-content: center;
+
+    scroll-margin-top: 100px;
+}
+
+.hero-card {
+    width: 18%;
+    min-height: 130px;
+    background-color: white;
+    padding: 8px;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.10);
+}
+.hero-card img {
+    width: 65px;
+    height: 90px;
+
+    object-fit: cover;
+
+    border-radius: 6px;
+
+    flex-shrink: 0;
+}
+
+.hero-content {
+    flex: 1;
+
+    text-align: left;
+}
+
+.hero-content h3 {
+    font-size: 14px;
+
+    margin: 0 0 4px;
+}
+
+.hero-content p {
+    font-size: 11px;
+
+    line-height: 1.3;
+
+    margin: 0;
+}
+
+
+
+
+.frames-title {
+    width: 100%;
+
+    margin: 25px auto;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 15px;
+
+    scroll-margin-top: 100px;
+}
+
+.frames-title h2 {
+    font-size: 21px;
+
+    font-weight: 600;
+
+    white-space: nowrap;
+
+    margin: 0;
+}
+
+.frame-line {
+    width: 80px;
+
+    height: 3px;
+
+    flex: 0 0 80px;
+
+    margin: 0;
+
+    padding: 0;
+
+    border: none;
+
+    opacity: 1;
+
+    background: linear-gradient(
+        to right,
+        #006400 0%,
+        #006400 50%,
+        #8B3000 50%,
+        #8B3000 100%
+    );
+}
+
+
+
+
+.final-buttons {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 15px;
+
+    margin: 25px auto;
+}
+
+.final-btn {
+    background-color: white;
+
+    color: black;
+
+    border: 1px solid black;
+
+    padding: 8px 18px;
+
+    border-radius: 6px;
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.final-btn:hover {
+    background-color: #138808;
+
+    color: white;
+
+    border-color: #138808;
+}
+
+
+
+
+.india-img {
+    width: 90%;
+
+    margin: 20px auto;
+
+    display: grid;
+
+    grid-template-columns: repeat(5, 1fr);
+
+    grid-template-rows: 180px 180px;
+
+    gap: 10px;
+
+    scroll-margin-top: 100px;
+}
+
+.nature-img {
+    width: 100%;
+    height: 100%;
+
+    overflow: hidden;
+
+    border-radius: 10px;
+}
+
+.nature-img img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    display: block;
+}
+
+
+
+.fort {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.redfort {
+    grid-column: 2;
+    grid-row: 1 / 3;
+}
+
+.tajmahal {
+    grid-column: 3;
+    grid-row: 1 / 3;
+}
+
+.lake {
+    grid-column: 4;
+    grid-row: 1 / 3;
+}
+
+.dance {
+    grid-column: 5;
+    grid-row: 1;
+}
+
+.waterfall {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.kerala {
+    grid-column: 5;
+    grid-row: 2;
+}
+
+
+
+.unity-section {
+    width: 100%;
+
+    margin: 20px 0;
+
+    padding: 0;
+
+    scroll-margin-top: 100px;
+}
+
+.unity-section img {
+    width: 100%;
+
+    height: auto;
+
+    display: block;
+}
+
+
+
+.movement-box {
+    width: 100%;
+
+    margin: 20px auto;
+
+    padding: 15px 30px;
+
+    background-color: #f4f4f4f8;
+
+    border: none;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 50px;
+
+    position: relative;
+
+    top: -38px;
+
+    scroll-margin-top: 100px;
+}
+
+.movement-box h2 {
+    margin: 0;
+
+    font-size: 22px;
+
+    font-weight: 700;
+
+    color: #222;
+}
+
+.movement-buttons {
+    display: flex;
+
+    align-items: center;
+
+    gap: 12px;
+}
+
+.join-btn,
+.share-btn {
+    padding: 10px 20px;
+
+    border-radius: 6px;
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+}
+
+.join-btn {
+    background-color: #ff9933;
+
+    color: white;
+
+    border: 2px solid #ff9933;
+}
+
+.join-btn:hover {
+    animation: blink 0.7s infinite;
+}
+
+.share-btn {
+    background-color: white;
+
+    color: #333;
+
+    border: 1px solid #999;
+}
+
+.share-btn:hover {
+    animation: blink 0.7s infinite;
+}
+
+
+
+
+@keyframes blink {
+
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+
+.about-india {
+    background-color: orange;
+
+    width: 100%;
+
+    margin: 20px auto;
+
+    padding: 25px;
+
+    text-align: center;
+
+    position: relative;
+
+    top: -19px;
+
+    scroll-margin-top: 100px;
+}
+
+.about-india h2 {
+    font-size: 24px;
+
+    font-weight: 700;
+
+    margin-bottom: 10px;
+}
+
+.about-india p {
+    font-size: 16px;
+
+    line-height: 1.6;
+
+    margin: 0 auto;
+
+    max-width: 800px;
+}
+
+
+
+.contact-section {
+    background-color: rgb(106, 218, 106);
+
+    width: 100%;
+
+    margin: 30px auto;
+
+    padding: 30px 20px;
+
+    text-align: center;
+
+    position: relative;
+
+    top: -65px;
+
+    scroll-margin-top: 100px;
+}
+
+.contact-section h2 {
+    font-size: 24px;
+
+    font-weight: 700;
+
+    margin-bottom: 12px;
+}
+
+.contact-section p {
+    font-size: 16px;
+
+    line-height: 1.6;
+
+    margin: 8px auto;
+
+    max-width: 700px;
+}
+
+
+
+
+.site-footer {
+    width: 100%;
+
+    min-height: 220px;
+
+    background-image: url("./assests/footer.png");
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    position: relative;
+
+    top: -93px;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+section[id] {
+    scroll-margin-top: 100px;
+}
+
+
+
+/* ============================= */
+/*      RESPONSIVE DESIGN        */
+/* ============================= */
+
+/* Tablet */
+@media (max-width: 992px) {
+
+    .navbar {
+        padding: 15px 30px;
+        left: 0;
+        width: 100%;
+    }
+
+    .logo {
+        margin-right: 30px;
+    }
+
+    .nav-links {
+        gap: 20px;
+    }
+
+    .field-content {
+        margin-left: 50px;
+        padding-right: 40px;
+    }
+
+    .field-content h1 {
+        font-size: 48px;
+    }
+
+    .flag-section {
+        width: 90%;
+    }
+
+    .heroes-section {
+        flex-wrap: wrap;
+    }
+
+    .hero-card {
+        width: 30%;
+    }
+
+    .timeline-line {
+        width: 100px;
+    }
+}
+
+
+/* Mobile */
+@media (max-width: 768px) {
+
+    /* Navbar */
+    .navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 12px 20px;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .logo {
+        margin-right: 0;
+    }
+
+    .nav-links {
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .nav-links a {
+        font-size: 13px;
+    }
+
+
+    /* Hero */
+    .feild {
+        padding-top: 140px;
+        min-height: auto;
+    }
+
+    .field-content {
+        margin-left: 30px;
+        padding: 50px 30px 50px 0;
+    }
+
+    .field-content h1 {
+        font-size: 42px;
+    }
+
+    .field-txt {
+        font-size: 16px;
+    }
+
+
+    /* Flag Section */
+    .flag-section {
+        width: 90%;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .flag-info,
+    .flag-image {
+        width: 100%;
+    }
+
+    .flag-image img {
+        width: 100%;
+    }
+
+    .tricolor-line {
+        width: 100%;
+    }
+
+
+    /* Timeline */
+    .timeline {
+        width: 95%;
+    }
+
+    .timeline-line {
+        width: 50px;
+    }
+
+    .timeline-item {
+        width: 55px;
+        height: 55px;
+    }
+
+
+    /* Heroes */
+    .heroes-section {
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-card {
+        width: 90%;
+    }
+
+
+    /* Gallery */
+    .india-img {
+        width: 90%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(4, 180px);
+    }
+
+    .fort,
+    .redfort,
+    .tajmahal,
+    .lake,
+    .dance,
+    .waterfall,
+    .kerala {
+        grid-column: auto;
+        grid-row: auto;
+    }
+
+
+    /* Unity */
+    .unity-section img {
+        width: 100%;
+        height: auto;
+    }
+
+
+    /* Join Us */
+    .movement-box {
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px;
+        top: 0;
+        text-align: center;
+    }
+
+    .movement-buttons {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+    /* About India */
+    .about-india {
+        top: 0;
+        padding: 25px 20px;
+    }
+
+    .about-india p {
+        font-size: 15px;
+    }
+
+
+    /* Contact */
+    .contact-section {
+        top: 0;
+        padding: 30px 20px;
+    }
+
+    .contact-section p {
+        font-size: 15px;
+    }
+
+
+    /* Footer */
+    .site-footer {
+        top: 0;
+        min-height: 180px;
+    }
+}
+
+
+/* Small Mobile */
+@media (max-width: 480px) {
+
+    .navbar {
+        padding: 10px 15px;
+    }
+
+    .logo span {
+        font-size: 20px;
+    }
+
+    .logo small {
+        font-size: 11px;
+    }
+
+    .nav-links {
+        gap: 10px;
+    }
+
+    .nav-links a {
+        font-size: 11px;
+    }
+
+    .field-content {
+        margin-left: 20px;
+        padding-right: 20px;
+    }
+
+    .field-content h1 {
+        font-size: 34px;
+    }
+
+    .main-title {
+        font-size: 15px;
+    }
+
+    .field-txt {
+        font-size: 14px;
+    }
+
+
+    .flag-section {
+        width: 92%;
+    }
+
+    .flag-info h2 {
+        font-size: 24px;
+    }
+
+    .flag-info h3 {
+        font-size: 15px;
+    }
+
+    .flag-info p {
+        font-size: 14px;
+    }
+
+
+    .heroes-title h2,
+    .frames-title h2 {
+        font-size: 18px;
+    }
+
+    .hero-line,
+    .frame-line {
+        width: 50px;
+        flex: 0 0 50px;
+    }
+
+
+    .timeline {
+        width: 100%;
+    }
+
+    .timeline-line {
+        width: 20px;
+    }
+
+    .timeline-item {
+        width: 48px;
+        height: 48px;
+    }
+
+    .year {
+        font-size: 13px;
+    }
+
+
+    .hero-card {
+        width: 100%;
+    }
+
+
+    .india-img {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+
+    .nature-img {
+        height: 200px;
+    }
+
+
+    .movement-box h2 {
+        font-size: 18px;
+    }
+
+    .join-btn,
+    .share-btn {
+        padding: 8px 15px;
+        font-size: 13px;
+    }
+
+
+    .about-india h2,
+    .contact-section h2 {
+        font-size: 21px;
+    }
+}
